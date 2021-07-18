@@ -1,0 +1,174 @@
+#container{
+    margin-left: 5%;
+    padding-top: 20px;
+    margin-right: 5%;
+}
+#logo{
+    display: inline-block;
+    margin-left: -11px;
+}
+#contact{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-right: 7%;
+    color:#ec5216;
+    font-size: 27px;
+    font-family: Europe;
+}
+#menu{
+    background-color:#231f20;
+    margin-top: 30px;
+    font-size: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-skip-ink: none;
+}
+#calc{
+    margin:30 0 0 50;
+    width: 55%;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    height: 500px;
+}
+#calcForm{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#submitBtn{
+    padding:12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #395306;
+    font-weight: bold;
+    border-radius: 10px;
+    background: rgb(130,201,0);
+    background: linear-gradient(0deg, rgba(130,201,0,1) 0%, rgba(196,243,52,1) 100%);
+    border: none;
+    box-shadow: 0 0 0 2px rgb(195, 195, 195),
+    inset 0 0 0 2px rgb(191,255,0);
+    margin: 25px;
+    cursor:pointer;
+}
+.dropbtn{
+    color: white;
+    background-color: #231f20;
+    font-size: 24px;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border:#231f20;
+}
+#lastBtn{
+    margin-left: 5.4px;
+}
+button:hover{
+    background-color:  #ec5216;
+    border: #ec5216;
+}
+.footerText{
+    font-size:22px;
+    margin-left:20px;
+    margin-right:20px;
+    color: white;
+}
+#footer{
+    width: 85%;
+    padding:10px;
+    padding-bottom:40px;
+    position:fixed;
+    bottom:0;
+    font-size:25px;
+    background-color: #231f20;
+    color: white;
+    padding-left: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size:0;
+    margin-right: 30%;
+    text-decoration-skip-ink: none;
+}
+.breadcrumb{
+    padding-top: 15px;
+    list-style: none;
+    
+}
+.breadcrumb li {
+    display: inline;
+    color:black;
+    font-size: 18px;
+  }
+  .breadcrumb li+li:before {
+    padding: 2px;
+    color: black;
+    content: "-";
+  }
+  .breadcrumb li a {
+    color: #000000;
+    text-decoration: none;
+    text-decoration-skip-ink: none;
+    text-decoration: underline;
+  }
+#result{
+    display: inline-block;
+    color: #395306;
+    font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold;
+
+}
+.legend{
+    margin-left:25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: #676767;
+    font-size:12px;
+}
+.formItem{
+    padding-top: 0px;
+    float: right;
+    padding-right: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.range{
+    -webkit-appearance: none;
+    background:rgb(0, 121, 16);
+    margin-left: 20px;
+    width: 250px;
+    height: 10px;
+    box-shadow: 0 0 0 3px white,
+    inset 0 0 0 3px black;
+    background: -webkit-linear-gradient(left, #89ac38 0%, #89ac38 50%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100% );
+    border-radius:10px;
+}
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: rgb(233, 233, 233);
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    border: solid rgb(187, 187, 187) 1px;
+    cursor:pointer;
+}
+.range::-webkit-slider-thumb:hover, .range::-webkit-slider-thumb:active{width:16px;height:16px}
+.secondRange{
+    -webkit-appearance: none;
+    background:rgb(0, 121, 16);
+    margin-left: 20px;
+    width: 250px;
+    height: 10px;
+    border-radius:10px;
+    box-shadow: 0 0 0 3px white,
+    inset 0 0 0 3px black;
+    background: -webkit-linear-gradient(left, #89ac38 0%, #89ac38 50%, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 100% );
+}
+.secondRange::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: rgb(233, 233, 233);
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    border: solid rgb(187, 187, 187) 1px;
+    cursor:pointer;
+}
+.secondRange::-webkit-slider-thumb:hover, .range::-webkit-slider-thumb:active{width:16px;height:16px}

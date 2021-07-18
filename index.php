@@ -6,7 +6,6 @@
             <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
             <script type="text/javascript" src="script.js"></script>
             <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-            <link rel="stylesheet" href="/resources/demos/style.css">
             <link rel="stylesheet" href="style/styles.css">
         <script>
             $( function() {
